@@ -1,0 +1,75 @@
+@model IEnumerable<EquipmentRental.Models.User>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Manage Roles";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Manage Roles</h2>
+
+    <div class="table-responsive">
+        <table class="table table-hover align-middle">
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Current Role</th>
+                    <th>New Role</th>
+                    <th class="text-end">Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var user in Model)
+                {
+                    <tr>
+                        <td>@user.Name</td>
+                        <td>@user.Email</td>
+                        <td>@user.Role</td>
+                        <td style="max-width:130px;">
+                            <select id="roleSelect_@user.ID" class="form-select form-select-sm">
+                                <option value="User" @(user.Role == "User" ? "selected" : "")>User</option>
+                                <option value="Admin" @(user.Role == "Admin" ? "selected" : "")>Admin</option>
+                            </select>
+                        </td>
+                        <td class="text-end">
+                            <button type="button" class="btn btn-primary btn-sm"
+                                    onclick="updateRoleAjax(@user.ID)">
+                                Update Role
+                            </button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function updateRoleAjax(userId) {
+            var selectedRole = document.getElementById("roleSelect_" + userId).value;
+            fetch('@Url.Action("UpdateRoleAjax", "Admin")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'RequestVerificationToken': '@Html.AntiForgeryToken()'
+                },
+                body: JSON.stringify({ userId: userId, role: selectedRole })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert("Role updated successfully!");
+                    location.reload();
+                } else {
+                    alert("Error: " + data.message);
+                }
+            })
+            .catch(err => {
+                console.log(err);
+                alert("An error occurred.");
+            });
+        }
+    </script>
+}

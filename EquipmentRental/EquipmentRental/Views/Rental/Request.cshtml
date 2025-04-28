@@ -1,0 +1,31 @@
+@model EquipmentRental.Models.Rental
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Request Rental";
+}
+<h2>Request Rental</h2>
+
+@using (Html.BeginForm("Request", "Rental", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.EquipmentID)
+        @Html.DropDownList("EquipmentID", (SelectList)ViewBag.EquipmentID, "Select Equipment", new { @class = "form-select" })
+        @Html.ValidationMessageFor(m => m.EquipmentID)
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.RentalStartDate)
+        @Html.TextBoxFor(m => m.RentalStartDate, new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(m => m.RentalStartDate)
+    </div>
+
+    <div class="mb-3">
+        @Html.LabelFor(m => m.RentalEndDate)
+        @Html.TextBoxFor(m => m.RentalEndDate, new { @class = "form-control", type = "date" })
+        @Html.ValidationMessageFor(m => m.RentalEndDate)
+    </div>
+
+    <button class="btn btn-primary" type="submit">Send Request</button>
+}

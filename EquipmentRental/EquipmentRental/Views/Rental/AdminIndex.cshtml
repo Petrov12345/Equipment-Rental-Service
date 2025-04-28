@@ -1,0 +1,60 @@
+@model IEnumerable<EquipmentRental.Models.Rental>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "All Rentals (Admin)";
+}
+
+<h2 class="mb-3">All Rentals (Admin)</h2>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="input-group">
+            <input id="searchBox" class="form-control" placeholder="Search rentals…" autocomplete="off" />
+            <button id="btnSearch" type="button" class="btn btn-outline-secondary">Search</button>
+        </div>
+    </div>
+    <div class="col-md-6 text-end">
+        <a class="btn btn-secondary" href="@Url.Action("Index", "Rental")">My Rentals</a>
+    </div>
+</div>
+
+<div id="tableArea">
+    @Html.Partial("_RentalTable", Model) 
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jquery")
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <link href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css" rel="stylesheet" />
+
+    <script>
+        $(function () {
+            const key = "adminRentalSearch";
+            $("#searchBox").val(localStorage.getItem(key) || "");
+
+            function load() {
+                const q = $("#searchBox").val();
+                localStorage.setItem(key, q);
+                $.get("@Url.Action("AdminIndex")", { q }, function(html) {
+                    $("#tableArea").html($(html).find("#tableArea").html());
+                });
+            }
+
+            $("#btnSearch").on("click", load);
+            $("#searchBox").on("keypress", function(e) {
+                if (e.which === 13) load();
+            });
+
+            $("#searchBox").autocomplete({
+                minLength: 2,
+                source: function (req, res) {
+                    $.getJSON("@Url.Action("AutoComplete")", { term: req.term }, res);
+                },
+                select: function (e, ui) {
+                    $("#searchBox").val(ui.item.value);
+                    load();
+                }
+            });
+        });
+    </script>
+}

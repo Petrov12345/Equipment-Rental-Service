@@ -1,0 +1,41 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Admin Panel";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Admin Dashboard</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+        <!-- Approve Equipment -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Approve Equipment</h5>
+                    <p class="card-text">Approve or deny newly submitted equipment.</p>
+                    @Html.ActionLink("Go", "ApproveEquipment", null, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+        <!-- Manage Rental Requests -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Rental Requests</h5>
+                    <p class="card-text">Approve or deny pending rental requests.</p>
+                    @Html.ActionLink("Go", "ManageRequests", null, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+        <!-- Manage Roles -->
+        <div class="col">
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Manage Roles</h5>
+                    <p class="card-text">View all users and update their roles.</p>
+                    @Html.ActionLink("Go", "ManageRoles", null, new { @class = "btn btn-primary" })
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

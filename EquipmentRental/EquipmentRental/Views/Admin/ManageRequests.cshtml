@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EquipmentRental.Models.Rental>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Rental Requests";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Pending Rental Requests</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No pending requests.</div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Equipment</th>
+                        <th>Owner</th>
+                        <th>Renter</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th class="text-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var r in Model)
+                    {
+                        <tr>
+                            <td>@r.Equipment.Name</td>
+                            <td>@r.Equipment.Owner.Name</td>
+                            <td>@r.Renter.Name</td>
+                            <td>@r.RentalStartDate.ToShortDateString()</td>
+                            <td>@r.RentalEndDate.ToShortDateString()</td>
+                            <td class="text-end">
+                                @using (Html.BeginForm("Approve", "Rental", FormMethod.Post,
+                                                       new { @class = "d-inline" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("id", r.ID)
+                                    <button type="submit" class="btn btn-success btn-sm">
+                                        Approve
+                                    </button>
+                                }
+                                @using (Html.BeginForm("Deny", "Rental", FormMethod.Post,
+                                                       new { @class = "d-inline ms-1" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("id", r.ID)
+                                    <button type="submit" class="btn btn-danger btn-sm">
+                                        Deny
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

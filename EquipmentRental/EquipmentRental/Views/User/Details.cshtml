@@ -1,0 +1,35 @@
+﻿@model EquipmentRental.Models.User
+
+@{
+    ViewBag.Title = "User Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">User Details</h2>
+
+<div class="card card-body mb-3">
+    <dl class="row">
+        <dt class="col-sm-3 col-md-2">Name</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Name</dd>
+
+        <dt class="col-sm-3 col-md-2">Email</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Email</dd>
+
+        <dt class="col-sm-3 col-md-2">Address</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Address</dd>
+
+        <dt class="col-sm-3 col-md-2">Telephone</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Telephone</dd>
+
+        <dt class="col-sm-3 col-md-2">Password (hashed)</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Password</dd>
+
+        <dt class="col-sm-3 col-md-2">Role</dt>
+        <dd class="col-sm-9 col-md-10">@Model.Role</dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary ms-2" })
+</p>

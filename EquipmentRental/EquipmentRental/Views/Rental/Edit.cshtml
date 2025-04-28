@@ -1,0 +1,58 @@
+﻿@model EquipmentRental.Models.Rental
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Edit Rental";
+    // Cast Equipment and Renter to their base types to get proper names
+    var equipmentName = Model.Equipment != null
+        ? ((EquipmentRental.Models.Equipment)Model.Equipment).Name
+        : "";
+    var renterName = Model.Renter != null
+        ? ((EquipmentRental.Models.User)Model.Renter).Name
+        : "";
+}
+
+<h2 class="mb-4">Edit Rental</h2>
+
+<div class="card card-body">
+    @using (Html.BeginForm("Edit", "Rental", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.HiddenFor(m => m.ID)
+
+        <div class="mb-3">
+            <label class="form-label">Equipment</label>
+            <input class="form-control" value="@equipmentName" disabled />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Renter</label>
+            <input class="form-control" value="@renterName" disabled />
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.RentalStartDate, new { @class = "form-label" })
+            @Html.TextBoxFor(m => m.RentalStartDate,
+                             new { @class = "form-control", type = "date", required = "required" })
+            @Html.ValidationMessageFor(m => m.RentalStartDate, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+            @Html.LabelFor(m => m.RentalEndDate, new { @class = "form-label" })
+            @Html.TextBoxFor(m => m.RentalEndDate,
+                             new { @class = "form-control", type = "date", required = "required" })
+            @Html.ValidationMessageFor(m => m.RentalEndDate, "", new { @class = "text-danger" })
+        </div>
+
+        <p><strong>Total Cost (auto‑calculated):</strong> @Model.TotalCost.ToString("C")</p>
+
+        <div class="d-flex gap-2">
+            <button class="btn btn-primary" type="submit">Save</button>
+            @Html.ActionLink("Back", "Index", null, new { @class = "btn btn-secondary" })
+        </div>
+    }
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

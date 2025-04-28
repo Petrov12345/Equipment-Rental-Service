@@ -1,0 +1,48 @@
+﻿@model EquipmentRental.Models.Equipment
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Delete Equipment</h2>
+
+<div class="alert alert-warning">
+    <h4>Are you sure you want to delete this item?</h4>
+    <p>This action cannot be undone.</p>
+</div>
+
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4 text-center p-3">
+            @if (!string.IsNullOrEmpty(Model.ImagePath))
+            {
+                <img src="@Model.ImagePath" style="height:120px;" alt="Equipment Image"
+                     class="rounded" />
+            }
+            else
+            {
+                <span class="text-muted">No Image</span>
+            }
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5>@Model.Name</h5>
+                <p class="mb-1"><strong>Category:</strong> @Model.Category</p>
+                <p class="mb-1"><strong>Price:</strong> @Model.RentalPrice</p>
+                <p class="mb-1"><strong>Status:</strong> @Model.AvailabilityStatus</p>
+                <p class="mb-1"><strong>Approved?</strong> @Model.IsApproved</p>
+                <p class="mb-0"><strong>Description:</strong> @Model.Description</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">
+        Delete
+    </button>
+    @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary ms-2" })
+}

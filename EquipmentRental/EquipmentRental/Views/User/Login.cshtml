@@ -1,0 +1,31 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "User", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input name="email" type="text" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input name="password" type="password" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <p class="text-danger">
+        @(ViewData.ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault() != null
+            ? ViewData.ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault().ErrorMessage
+            : "")
+    </p>
+}

@@ -1,0 +1,62 @@
+@model IEnumerable<EquipmentRental.Models.User>
+@{
+    bool isAdmin = User.IsInRole("Admin");
+    var typedModel = Model ?? Enumerable.Empty<EquipmentRental.Models.User>();
+}
+
+<div class="table-responsive">
+    <table class="table table-striped align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                @if (isAdmin)
+                {
+                    <th>Address</th>
+                    <th>Telephone</th>
+                    <th>Password (hashed)</th>
+                    <th>Role</th>
+                    <th class="text-end">Actions</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var u in typedModel)
+            {
+                <tr>
+                    <td>@u.Name</td>
+                    <td>@u.Email</td>
+                    @if (isAdmin)
+                    {
+                        <td>@u.Address</td>
+                        <td>@u.Telephone</td>
+                        <td class="text-truncate" style="max-width: 150px;">@u.Password</td>
+                        <td>@u.Role</td>
+                        <td class="text-end">
+                            @Html.ActionLink(
+                                     linkText: "Edit",
+                                     actionName: "Edit",
+                                     routeValues: new { id = u.ID },
+                                     htmlAttributes: new { @class = "btn btn-sm btn-outline-secondary" }
+                                 )
+                            <span class="ms-1"></span>
+                            @Html.ActionLink(
+                                     linkText: "Details",
+                                     actionName: "Details",
+                                     routeValues: new { id = u.ID },
+                                     htmlAttributes: new { @class = "btn btn-sm btn-outline-primary" }
+                                 )
+                            <span class="ms-1"></span>
+                            @Html.ActionLink(
+                                     linkText: "Delete",
+                                     actionName: "Delete",
+                                     routeValues: new { id = u.ID },
+                                     htmlAttributes: new { @class = "btn btn-sm btn-outline-danger" }
+                                 )
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

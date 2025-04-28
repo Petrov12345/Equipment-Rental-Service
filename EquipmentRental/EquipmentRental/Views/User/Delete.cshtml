@@ -1,0 +1,48 @@
+﻿
+@model EquipmentRental.Models.User
+
+@{
+    ViewBag.Title = "Delete User";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mb-4">Delete User</h2>
+
+<div class="alert alert-warning">
+    <h4>Are you sure you want to delete this user?</h4>
+    <p>This action cannot be undone.</p>
+</div>
+
+<div class="card mb-3">
+    <div class="card-body">
+        <dl class="row">
+            <dt class="col-sm-4">Name</dt>
+            <dd class="col-sm-8">@Model.Name</dd>
+
+            <dt class="col-sm-4">Email</dt>
+            <dd class="col-sm-8">@Model.Email</dd>
+
+            <dt class="col-sm-4">Address</dt>
+            <dd class="col-sm-8">@Model.Address</dd>
+
+            <dt class="col-sm-4">Telephone</dt>
+            <dd class="col-sm-8">@Model.Telephone</dd>
+
+            <dt class="col-sm-4">Password (hashed)</dt>
+            <dd class="col-sm-8">@Model.Password</dd>
+
+            <dt class="col-sm-4">Role</dt>
+            <dd class="col-sm-8">@Model.Role</dd>
+        </dl>
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="d-flex gap-2">
+        <input type="submit" value="Delete" class="btn btn-danger" />
+        @Html.ActionLink("Cancel", "Index", null, new { @class = "btn btn-secondary" })
+    </div>
+}

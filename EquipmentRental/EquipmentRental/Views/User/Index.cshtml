@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EquipmentRental.Models.User>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Users";
+    bool isAdmin = User.IsInRole("Admin");
+}
+
+<h2 class="mb-3">Users</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No users found.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        @foreach (var user in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@user.Name</h5>
+                        <p class="card-text mb-1"><strong>Email:</strong> @user.Email</p>
+                        <p class="card-text mb-1"><strong>Address:</strong> @user.Address</p>
+                        <p class="card-text mb-1"><strong>Tel:</strong> @user.Telephone</p>
+                        <p class="card-text mb-1"><strong>Role:</strong> @user.Role</p>
+                        @if (isAdmin)
+                        {
+                            <p class="card-text"><strong>Pass (hashed):</strong> @user.Password</p>
+                        }
+                    </div>
+                    @if (isAdmin)
+                    {
+                        <div class="card-footer text-end">
+                            @Html.ActionLink("Edit", "Edit", new { id = user.ID },
+                                                  new { @class = "btn btn-sm btn-outline-secondary" })
+                            <span class="ms-1"></span>
+                            @Html.ActionLink("Details", "Details", new { id = user.ID },
+                                                  new { @class = "btn btn-sm btn-outline-primary" })
+                            <span class="ms-1"></span>
+                            @Html.ActionLink("Delete", "Delete", new { id = user.ID },
+                                                  new { @class = "btn btn-sm btn-outline-danger" })
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+}

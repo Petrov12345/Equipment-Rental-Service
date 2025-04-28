@@ -1,0 +1,73 @@
+﻿@model EquipmentRental.Models.Rental
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Rental Details";
+}
+
+<h2 class="mb-4">Rental Details</h2>
+
+<div class="card card-body mb-3">
+    <dl class="row">
+        <dt class="col-sm-4">Equipment</dt>
+        <dd class="col-sm-8">
+            @if (Model.Equipment != null)
+            {
+                @Model.Equipment.Name
+            }
+            else
+            {
+                <span class="text-muted">(No Equipment)</span>
+            }
+        </dd>
+
+        <dt class="col-sm-4">Owner</dt>
+        <dd class="col-sm-8">
+            @if (Model.Equipment != null && Model.Equipment.Owner != null)
+            {
+                @Model.Equipment.Owner.Name
+            }
+            else
+            {
+                <span class="text-muted">(No Owner)</span>
+            }
+        </dd>
+
+        <dt class="col-sm-4">Renter</dt>
+        <dd class="col-sm-8">
+            @if (Model.Renter != null)
+            {
+                @Model.Renter.Name
+            }
+            else
+            {
+                <span class="text-muted">(No Renter)</span>
+            }
+        </dd>
+
+        <dt class="col-sm-4">Start Date</dt>
+        <dd class="col-sm-8">
+            @Model.RentalStartDate.ToShortDateString()
+        </dd>
+
+        <dt class="col-sm-4">End Date</dt>
+        <dd class="col-sm-8">
+            @Model.RentalEndDate.ToShortDateString()
+        </dd>
+
+        <dt class="col-sm-4">Total Cost</dt>
+        <dd class="col-sm-8">
+            @Model.TotalCost.ToString("C")
+        </dd>
+
+        <dt class="col-sm-4">Status</dt>
+        <dd class="col-sm-8">
+            @Model.Status
+        </dd>
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-primary" })
+    @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-secondary ms-2" })
+</p>

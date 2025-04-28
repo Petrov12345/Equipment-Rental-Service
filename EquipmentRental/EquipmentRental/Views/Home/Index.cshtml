@@ -1,0 +1,180 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home";
+    bool isLoggedIn = (User != null && User.Identity != null && User.Identity.IsAuthenticated);
+}
+
+<h2 class="mb-3">Welcome to Equipment Rental</h2>
+
+<div class="alert alert-info">
+    <strong>Total Equipment:</strong> @ViewBag.TotalEquipment <br />
+    <strong>Total Users:</strong> @ViewBag.TotalUsers <br />
+    <strong>Total Rentals:</strong> @ViewBag.TotalRentals
+</div>
+
+@if (!isLoggedIn)
+{
+    <p>
+        Please <a href="@Url.Action("Login", "User")">login</a> or
+        <a href="@Url.Action("Register", "User")">register</a> to see your dashboard.
+    </p>
+}
+else
+{
+    var myEquip = ViewBag.MyEquipment as IEnumerable<EquipmentRental.Models.Equipment>;
+    var myRentals = ViewBag.MyRentals as IEnumerable<EquipmentRental.Models.Rental>;
+
+    /************************************************/
+    /*          USER EQUIPMENT SECTION              */
+    /************************************************/
+    if (myEquip != null && myEquip.Any())
+    {
+        var approvedEquip = myEquip.Where(e => e.IsApproved).ToList();
+        var pendingEquip = myEquip.Where(e => !e.IsApproved).ToList();
+
+        if (approvedEquip.Any())
+        {
+            <h3 class="mb-3">Your Approved Equipment</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                @foreach (var eq in approvedEquip)
+                {
+                    <div class="col">
+                        <a href="@Url.Action("Details", "Equipment", new { id = eq.ID })"
+                           class="text-decoration-none text-dark">
+                            <div class="card h-100 border-success">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (eq.Name != null)
+                                        {
+                                            @eq.Name
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">(Unnamed item)</span>
+                                        }
+                                    </h5>
+                                    <p class="card-text">
+                                        <strong>Category:</strong> @eq.Category <br />
+                                        <strong>Price:</strong> @eq.RentalPrice.ToString("C")
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+
+        if (pendingEquip.Any())
+        {
+            <h3 class="mb-3">Your Pending Equipment</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                @foreach (var eq in pendingEquip)
+                {
+                    <div class="col">
+                        <a href="@Url.Action("Details", "Equipment", new { id = eq.ID })"
+                           class="text-decoration-none text-dark">
+                            <div class="card h-100 border-warning">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (eq.Name != null)
+                                        {
+                                            @eq.Name
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">(Unnamed item)</span>
+                                        }
+                                    </h5>
+                                    <p class="card-text">
+                                        <strong>Category:</strong> @eq.Category <br />
+                                        <strong>Price:</strong> @eq.RentalPrice.ToString("C")
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+    }
+
+    /************************************************/
+    /*            USER RENTALS SECTION              */
+    /************************************************/
+    if (myRentals != null && myRentals.Any())
+    {
+        var approvedRentals = myRentals.Where(r => r.Status == "Approved").ToList();
+        var pendingRentals = myRentals.Where(r => r.Status == "Pending").ToList();
+
+        if (approvedRentals.Any())
+        {
+            <h3 class="mb-3">Your Approved Rentals</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                @foreach (var r in approvedRentals)
+                {
+                    <div class="col">
+                        <a href="@Url.Action("Details", "Rental", new { id = r.ID })"
+                           class="text-decoration-none text-dark">
+                            <div class="card h-100 border-success">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (r.Equipment != null && r.Equipment.Name != null)
+                                        {
+                                            @r.Equipment.Name
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">(No equipment name)</span>
+                                        }
+                                    </h5>
+                                    <p class="card-text mb-1">
+                                        <strong>Start:</strong> @r.RentalStartDate.ToShortDateString() <br />
+                                        <strong>End:</strong> @r.RentalEndDate.ToShortDateString() <br />
+                                        <strong>Cost:</strong> @r.TotalCost.ToString("C")
+                                    </p>
+                                    <p class="text-success mb-0">Status: @r.Status</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+
+        if (pendingRentals.Any())
+        {
+            <h3 class="mb-3">Your Pending Rentals</h3>
+            <div class="row row-cols-1 row-cols-md-2 g-3 mb-4">
+                @foreach (var r in pendingRentals)
+                {
+                    <div class="col">
+                        <a href="@Url.Action("Details", "Rental", new { id = r.ID })"
+                           class="text-decoration-none text-dark">
+                            <div class="card h-100 border-warning">
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        @if (r.Equipment != null && r.Equipment.Name != null)
+                                        {
+                                            @r.Equipment.Name
+                                        }
+                                        else
+                                        {
+                                            <span class="text-muted">(No equipment name)</span>
+                                        }
+                                    </h5>
+                                    <p class="card-text mb-1">
+                                        <strong>Start:</strong> @r.RentalStartDate.ToShortDateString() <br />
+                                        <strong>End:</strong> @r.RentalEndDate.ToShortDateString() <br />
+                                        <strong>Cost:</strong> @r.TotalCost.ToString("C")
+                                    </p>
+                                    <p class="text-warning mb-0">Status: @r.Status</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                }
+            </div>
+        }
+    }
+}

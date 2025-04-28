@@ -1,0 +1,69 @@
+@model IEnumerable<EquipmentRental.Models.Equipment>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Approve Equipment";
+}
+
+<div class="container-fluid">
+    <h2 class="mb-4">Approve Equipment</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">No equipment pending approval.</div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Owner</th>
+                        <th>Image</th>
+                        <th class="text-end">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var eq in Model)
+                    {
+                        <tr>
+                            <td>@eq.Name</td>
+                            <td>@(eq.Owner != null ? eq.Owner.Name : "No Owner")</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(eq.ImagePath))
+                                {
+                                    <img src="@eq.ImagePath" style="height:60px;"
+                                         alt="Equipment Image" class="rounded" />
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No Image</span>
+                                }
+                            </td>
+                            <td class="text-end">
+                                @using (Html.BeginForm("Approve", "Admin", FormMethod.Post, new { @class = "d-inline" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("equipmentId", eq.ID)
+                                    <button type="submit" class="btn btn-success btn-sm">
+                                        Approve
+                                    </button>
+                                }
+
+                                @using (Html.BeginForm("DenyEquipment", "Admin", FormMethod.Post,
+                                                       new { @class = "d-inline ms-1" }))
+                                {
+                                    @Html.AntiForgeryToken()
+                                    @Html.Hidden("equipmentId", eq.ID)
+                                    <button type="submit" class="btn btn-danger btn-sm">
+                                        Deny
+                                    </button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

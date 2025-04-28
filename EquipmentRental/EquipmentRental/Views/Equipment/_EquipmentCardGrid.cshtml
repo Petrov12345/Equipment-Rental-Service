@@ -1,0 +1,36 @@
+@model IEnumerable<EquipmentRental.Models.Equipment>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">No equipment found.</div>
+}
+else
+{
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var eq in Model)
+        {
+            <div class="col">
+                <a href="@Url.Action("Details", "Equipment", new { id = eq.ID })"
+                   class="text-decoration-none text-dark">
+                    <div class="card h-100">
+                        @if (!string.IsNullOrEmpty(eq.ImagePath))
+                        {
+                            <img src="@eq.ImagePath" class="card-img-top"
+                                 style="height:180px; object-fit:cover;" />
+                        }
+                        else
+                        {
+                            <img src="~/Content/no-image.png" class="card-img-top"
+                                 style="height:180px; object-fit:cover;" alt="No image" />
+                        }
+                        <div class="card-body">
+                            <h5 class="card-title">@eq.Name</h5>
+                            <p class="card-text mb-1"><strong>Category:</strong> @eq.Category</p>
+                            <p class="card-text"><strong>Price:</strong> @eq.RentalPrice.ToString("C")</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+    </div>
+}

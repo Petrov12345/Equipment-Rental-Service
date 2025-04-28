@@ -1,0 +1,1028 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\rental\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\rental\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\rental\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\rental\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\adminindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\rental\\_rentaltable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\_rentaltable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\equipment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\controllers\\equipmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\equipment\\_equipmenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\_equipmenttable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\equipment\\_equipmentcardgrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\_equipmentcardgrid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\user\\_usertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\user\\_usertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\shared\\_userinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\shared\\_userinfo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\shared\\_menupartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\rental\\request.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\request.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|c:\\users\\usman\\source\\repos\\equipmentrental\\equipmentrental\\equipmentrental\\views\\rental\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\rental\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\rental\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\equipment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\equipment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\equipment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\equipment\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\admin\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\admin\\manageroles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\admin\\managerequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\admin\\managerequests.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\admin\\approveequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\admin\\approveequipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\models\\equipment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\migrations\\202503241338030_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\migrations\\202503241338030_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\migrations\\202504132141454_updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\migrations\\202504132141454_updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\admin\\managerequests.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\admin\\managerequests.cshtml||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\migrations\\202504071505539_addequipmentapprovalandimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\migrations\\202504071505539_addequipmentapprovalandimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\equipmentrental\\migrations\\202503241401054_configurecascadedeleteforrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D7857D-A729-4A3D-BAE3-B60340CFAABA}|EquipmentRental\\EquipmentRental.csproj|solutionrelative:equipmentrental\\migrations\\202503241401054_configurecascadedeleteforrentals.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Models\\EquipmentRentalConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\EquipmentRentalConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Migrations\\202503241211137_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\202503241211137_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Edit.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Edit.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:14:03.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Details.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Details.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:14:02.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:54:14.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Delete.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:47:09.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\AdminIndex.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\AdminIndex.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\AdminIndex.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\AdminIndex.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T06:29:57.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_RentalTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\_RentalTable.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\_RentalTable.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\_RentalTable.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\_RentalTable.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAswFoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T02:14:41.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Details.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Details.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:45:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Controllers\\RentalController.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\RentalController.cs",
+              "RelativeToolTip": "EquipmentRental\\Controllers\\RentalController.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAYwM0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:42:06.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EquipmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\EquipmentController.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Controllers\\EquipmentController.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\EquipmentController.cs",
+              "RelativeToolTip": "EquipmentRental\\Controllers\\EquipmentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:41:34.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EquipmentRental\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T09:16:52.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:18:10.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Create.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Create.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:45:14.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_EquipmentTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\_EquipmentTable.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\_EquipmentTable.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\_EquipmentTable.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\_EquipmentTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T02:13:33.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_EquipmentCardGrid.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\_EquipmentCardGrid.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\_EquipmentCardGrid.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\_EquipmentCardGrid.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\_EquipmentCardGrid.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T06:52:51.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Global.asax.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Global.asax.cs",
+              "RelativeToolTip": "EquipmentRental\\Global.asax.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:48:07.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:16:46.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:46:57.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:47:50.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Details.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Details.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:46:59.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Delete.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:46:59.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:47:41.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_UserTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\_UserTable.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\_UserTable.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\_UserTable.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\_UserTable.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T02:16:16.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:16:26.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Web.config",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Web.config",
+              "RelativeToolTip": "EquipmentRental\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T12:25:46.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Web.config",
+              "RelativeDocumentMoniker": "EquipmentRental\\Web.config",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Web.config",
+              "RelativeToolTip": "EquipmentRental\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-03-24T09:07:08.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:37:01.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_UserInfo.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_UserInfo.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Shared\\_UserInfo.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_UserInfo.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Shared\\_UserInfo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:51:18.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_Sidebar.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Shared\\_Sidebar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:52:23.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_MenuPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Shared\\_MenuPartial.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_MenuPartial.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Shared\\_MenuPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T08:58:58.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T11:50:15.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Request.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Request.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Request.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Request.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Request.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T21:29:46.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Index.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Index.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:47:05.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Create.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Rental\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Rental\\Create.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Rental\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:47:11.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:36:55.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T07:46:35.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Index.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Index.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\Index.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:49:02.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Edit.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-24T17:48:58.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Equipment\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Equipment\\Delete.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Equipment\\Delete.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:45:17.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ManageRoles.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRoles.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Admin\\ManageRoles.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRoles.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Admin\\ManageRoles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:18:29.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ManageRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T22:41:02.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ApproveEquipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ApproveEquipment.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Admin\\ApproveEquipment.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ApproveEquipment.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Admin\\ApproveEquipment.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T14:32:59.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\User.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\User.cs",
+              "RelativeToolTip": "EquipmentRental\\Models\\User.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:35:24.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\Rental.cs",
+              "RelativeToolTip": "EquipmentRental\\Models\\Rental.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:36:35.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "EquipmentRental\\Models\\MyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T17:31:21.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Equipment.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\Equipment.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Models\\Equipment.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Models\\Equipment.cs",
+              "RelativeToolTip": "EquipmentRental\\Models\\Equipment.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:10:42.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "EquipmentRental\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:10:42.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "202503241338030_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202503241338030_Initial.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Migrations\\202503241338030_Initial.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202503241338030_Initial.cs",
+              "RelativeToolTip": "EquipmentRental\\Migrations\\202503241338030_Initial.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwD0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T05:45:35.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\UserController.cs",
+              "RelativeToolTip": "EquipmentRental\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAJ4AAAAAAAAAAAAswJoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T11:41:02.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "EquipmentRental\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T14:13:26.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "202504132141454_UpdateModel.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202504132141454_UpdateModel.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Migrations\\202504132141454_UpdateModel.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202504132141454_UpdateModel.cs",
+              "RelativeToolTip": "EquipmentRental\\Migrations\\202504132141454_UpdateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T21:41:50.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\packages.config",
+              "RelativeDocumentMoniker": "EquipmentRental\\packages.config",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\packages.config",
+              "RelativeToolTip": "EquipmentRental\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-13T22:23:27.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "EquipmentRental\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:22:02.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ManageRequests.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\Admin\\ManageRequests.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-13T21:30:26.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "202504071505539_AddEquipmentApprovalAndImage.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202504071505539_AddEquipmentApprovalAndImage.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Migrations\\202504071505539_AddEquipmentApprovalAndImage.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202504071505539_AddEquipmentApprovalAndImage.cs",
+              "RelativeToolTip": "EquipmentRental\\Migrations\\202504071505539_AddEquipmentApprovalAndImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:05:58.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EquipmentRental\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "EquipmentRental\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T05:45:46.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "EquipmentRental\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T15:08:50.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "EquipmentRental\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T05:46:47.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "202503241401054_ConfigureCascadeDeleteForRentals.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202503241401054_ConfigureCascadeDeleteForRentals.cs",
+              "RelativeDocumentMoniker": "EquipmentRental\\Migrations\\202503241401054_ConfigureCascadeDeleteForRentals.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\EquipmentRental\\Migrations\\202503241401054_ConfigureCascadeDeleteForRentals.cs",
+              "RelativeToolTip": "EquipmentRental\\Migrations\\202503241401054_ConfigureCascadeDeleteForRentals.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T05:45:33.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "202503241211137_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Migrations\\202503241211137_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\202503241211137_Initial.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Migrations\\202503241211137_Initial.cs",
+              "RelativeToolTip": "Migrations\\202503241211137_Initial.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T12:11:17.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "EquipmentRentalConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Models\\EquipmentRentalConnection.cs",
+              "RelativeDocumentMoniker": "Models\\EquipmentRentalConnection.cs",
+              "ToolTip": "C:\\Users\\Usman\\source\\repos\\EquipmentRental\\EquipmentRental\\Models\\EquipmentRentalConnection.cs",
+              "RelativeToolTip": "Models\\EquipmentRentalConnection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:38:25.717Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

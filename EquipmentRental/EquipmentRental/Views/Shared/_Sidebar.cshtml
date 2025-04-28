@@ -1,0 +1,36 @@
+﻿@{
+    bool isLoggedIn = (User != null && User.Identity != null && User.Identity.IsAuthenticated);
+    bool isAdmin = User != null && User.IsInRole("Admin");
+}
+
+<div class="list-group">
+    <a href="@Url.Action("Index", "Home")" class="list-group-item list-group-item-action">
+        Home Dashboard
+    </a>
+    <a href="@Url.Action("Index", "Equipment")" class="list-group-item list-group-item-action">
+        Equipment
+    </a>
+    <a href="@Url.Action("Index", "Rental")" class="list-group-item list-group-item-action">
+        Rentals
+    </a>
+
+    @if (isAdmin)
+    {
+        <a href="@Url.Action("Index", "User")" class="list-group-item list-group-item-action">
+            Users
+        </a>
+        <a href="@Url.Action("Index", "Admin")" class="list-group-item list-group-item-action">
+            Admin Panel
+        </a>
+    }
+</div>
+
+@if (!isLoggedIn)
+{
+    <hr />
+    <div>
+        <p class="small mb-2">You are not logged in.</p>
+        <a class="btn btn-sm btn-primary" href="@Url.Action("Login", "User")">Login</a>
+        <a class="btn btn-sm btn-secondary ms-1" href="@Url.Action("Register", "User")">Register</a>
+    </div>
+}

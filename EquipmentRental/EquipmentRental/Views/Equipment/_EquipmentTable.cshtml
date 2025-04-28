@@ -1,0 +1,51 @@
+@model IEnumerable<EquipmentRental.Models.Equipment>
+@{
+    bool isAdmin = User.IsInRole("Admin");
+}
+
+<div class="table-responsive">
+    <table class="table table-striped align-middle">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Owner</th>
+                <th>Approved?</th>
+                <th>Image</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@(item.Owner != null ? item.Owner.Name : "No Owner")</td>
+                    <td>@item.IsApproved</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(item.ImagePath))
+                        {
+                            <img src="@item.ImagePath" style="height:60px;"
+                                 class="rounded" alt="Equipment" />
+                        }
+                        else
+                        {
+                            <span class="text-muted">No Image</span>
+                        }
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "Details", new { id = item.ID },
+                                              new { @class = "btn btn-sm btn-outline-primary" })
+
+                        @if (isAdmin || (Session["UserID"] as int?) == item.OwnerID)
+                        {
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ID },
+                                                  new { @class = "btn btn-sm btn-outline-secondary ms-1" })
+                            @Html.ActionLink("Delete", "Delete", new { id = item.ID },
+                                                  new { @class = "btn btn-sm btn-outline-danger ms-1" })
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

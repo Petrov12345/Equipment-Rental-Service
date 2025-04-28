@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EquipmentRental.Models.Equipment>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Equipment";
+}
+
+<h2>Equipment</h2>
+
+<div class="row mb-3">
+    <div class="col-md-6">
+        <div class="input-group">
+            <input id="searchBox" class="form-control" placeholder="Search equipment…" />
+            <button id="btnSearch" type="button" class="btn btn-outline-secondary">Search</button>
+        </div>
+    </div>
+    <div class="col-md-6 text-end">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a href="@Url.Action("Create", "Equipment")" class="btn btn-primary">
+                Add New Equipment
+            </a>
+        }
+    </div>
+</div>
+
+
+<div id="cardGrid">
+    @Html.Partial("_EquipmentCardGrid", Model)
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"></script>
+    <link href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css" rel="stylesheet" />
+
+    <script>
+        $(function () {
+            // For storing searches in localStorage
+            const key = "equipSearch";
+            $("#searchBox").val(localStorage.getItem(key) || "");
+
+            // Ajax GET
+            function load() {
+                const q = $("#searchBox").val();
+                localStorage.setItem(key, q);
+                $.get("@Url.Action("Index")", { q }, function (html) {
+                    $("#cardGrid").html(html);
+                });
+            }
+
+            //"Search" button
+            $("#btnSearch").on("click", load);
+            $("#searchBox").on("keypress", e => {
+                if (e.which === 13) load();
+            });
+
+            // Autocomplete logic
+            $("#searchBox").autocomplete({
+                minLength: 2,
+                source: (req, res) => {
+                    $.getJSON("@Url.Action("AutoComplete")", { term: req.term }, res);
+                },
+                select: (e, ui) => {
+                    $("#searchBox").val(ui.item.value);
+                    load();
+                }
+            });
+        });
+    </script>
+}
